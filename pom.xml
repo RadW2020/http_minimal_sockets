@@ -13,7 +13,7 @@
         <configuration>
             <archive>
                 <manifest>
-                        <mainClass>com.radw2020.http_minimal.ServidorHTTP</mainClass>
+                        <mainClass>com.radw2020.http_minimal.ServidorHTTP.Main</mainClass>
                 </manifest>
             </archive>
       </configuration>
