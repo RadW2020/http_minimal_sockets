@@ -44,8 +44,8 @@ public static void main(String[] args) throws IOException, Exception {
     
       
     try{
-    //Asociamos al servidor el puerto 8066
-    socServidor = new ServerSocket(8066);
+    //Asociamos al servidor el puerto 80
+    socServidor = new ServerSocket(80);
     imprimeDisponible();
     //ante una petición entrante, procesa la petición por el socket cliente
     //por donde la recibe
@@ -163,9 +163,9 @@ public static void main(String[] args) throws IOException, Exception {
 
     System.out.println("El Servidor WEB se está ejecutando y permanece a la "
             + "escucha por el puerto 8066.\nEscribe en la barra de direcciones "
-            + "de tu explorador preferido:\n\nhttp://localhost:8066\npara "
-            + "solicitar la página de bienvenida\n\nhttp://localhost:8066/"
+            + "de tu explorador preferido:\n\nhttp://localhost:80\npara "
+            + "solicitar la página de bienvenida\n\nhttp://localhost:80/"
             + "quijote\n para solicitar una página del Quijote,\n\nhttp://"
-            + "localhost:8066/q\n para simular un error");
+            + "localhost:80/q\n para simular un error");
   }
 }
