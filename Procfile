@@ -1,1 +1,1 @@
-web: java -jar target/http_minimal-1.0-SNAPSHOT.jar-with-dependencies.jar
+web: java -jar target/http_minimal-1.0-SNAPSHOT.jar
